@@ -159,6 +159,8 @@ body {
     font-style: normal;
     font-weight: 400;
     color: var(--text-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-link:hover,
@@ -171,11 +173,11 @@ body {
 }
 
 
-/* !-!-!-!-!-Index-!-!-!-!-! */
-
-
 /*
-----------Hero section---------- */
+!-!-!-!-!-Index-!-!-!-!-! */
+
+
+/* ----------Hero section---------- */
 
 .hero {
     padding-top: 188px;
@@ -185,9 +187,10 @@ body {
 }
 
 .hero-title {
-    /* width: 496px; */
+    width: 496px;
     font-size: 56px;
     line-height: 1.07;
+    margin: auto;
     margin-bottom: 48px;
     color: var(--secondary-text-color);
 }
@@ -212,8 +215,8 @@ body {
 }
 
 
-/* ----------About section----------
-*/
+/*
+----------About section---------- */
 
 .about-list {
     display: flex;
@@ -236,8 +239,7 @@ body {
 }
 
 
-/*
-----------Process section---------- */
+/* ----------Process section---------- */
 
 .process {
     padding-top: 0;
@@ -256,8 +258,7 @@ body {
 }
 
 
-/* ----------Team
-section---------- */
+/* ----------Team section---------- */
 
 .team {
     background-color: var(--accent-color);
@@ -268,7 +269,7 @@ section---------- */
 }
 
 .team-item {
-    width: calc(100% - 3 * 24px) / 4;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-item:not(:last-child) {
@@ -293,7 +294,8 @@ section---------- */
 }
 
 
-/* ----------Footer----------- */
+/*
+----------Footer----------- */
 
 .footer {
     padding-top: 100px;
@@ -307,13 +309,13 @@ section---------- */
 }
 
 .footer-logo {
+    display: inline-block;
     color: var(--accent-color);
     margin-bottom: 16px;
 }
 
 
-/*
-!-!-!-!-!-Portfolio-!-!-!-!-! */
+/* !-!-!-!-!-Portfolio-!-!-!-!-! */
 
 .category {
     padding-top: 96px;
@@ -347,6 +349,7 @@ section---------- */
 .category-btn:focus {
     color: var(--secondary-text-color);
     background-color: var(--hover-color);
+    border-color: var(--hover-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -368,11 +371,9 @@ section---------- */
 }
 
 .cards-content {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border: 1px solid var(--border-btn-color);
-    border-top: hidden;
+    border-top: none;
 }
 
 .cards-subtitle {
